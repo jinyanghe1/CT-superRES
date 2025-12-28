@@ -21,12 +21,11 @@ python download_data.py
 This will download and extract images to the `data/` directory.
 
 ### 2. External Professional Datasets
-
 For full-scale training, consider these high-quality public resources:
-
-* **The Cancer Imaging Archive (TCIA)**: specifically the [LDCT-and-Projection-data](https://wiki.cancerimagingarchive.net/display/Public/LDCT-and-Projection-data) (Mayo Clinic). Contains paired normal/low-dose CTs.
-* **CT-ORG**: 140 CT scans with various organ segmentations.
-* **COVID-CT Dataset**: Publicly available on Kaggle and GitHub.
+*   **RPLHR-CT Dataset**: [Zenodo Download](https://zenodo.org/records/17239183). Includes real-paired thin/thick CTs.
+*   **CT-Super-Resolution**: [GitHub Repository](https://github.com/labcisne/CT-Super-Resolution).
+*   **The Cancer Imaging Archive (TCIA)**: specifically the [LDCT-and-Projection-data](https://wiki.cancerimagingarchive.net/display/Public/LDCT-and-Projection-data) (Mayo Clinic).
+*   **CT-ORG**: 140 CT scans with various organ segmentations.
 
 **Note**: The framework now supports direct loading of `.dcm` (DICOM) files. Simply place them in the `data/` folder.
 
