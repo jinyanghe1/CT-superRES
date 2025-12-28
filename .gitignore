@@ -1,0 +1,60 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Machine Learning specific
+# Ignore local data, checkpoints and results to keep repo clean
+ct-superRes/data/*
+!ct-superRes/data/.gitkeep
+ct-superRes/checkpoints/
+ct-superRes/results/
+ct-superRes/logs/
+*.pth
+*.pt
+*.onnx
+*.h5
+
+# Project Specific
+.idea/
+.vscode/
+*.log
